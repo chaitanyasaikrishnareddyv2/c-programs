@@ -1,0 +1,36 @@
+# CLGLCCP39
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+
+## Problem
+
+_Description not available._
+
+## Solution
+
+**Language:** c_cpp  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-09-26T23:02:56.151Z  
+
+```c_cpp
+#include <stdio.h>
+
+int main() {
+    printf("Height: 175\n""Weight: 70");
+    // Declare a short variable for weight and assign it the value 70
+    
+    // Declare an integer variable for height and assign it the value 175
+    
+    // Print: "Height: " followed by the value of height
+    
+    // Print: "Weight: " followed by the value of weight
+
+    return 0;
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/CLGLCCP39)
