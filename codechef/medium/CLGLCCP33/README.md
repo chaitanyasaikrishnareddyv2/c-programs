@@ -19,7 +19,7 @@ ___________;
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T22:58:40.026Z  
+**Submitted:** 2026-09-26T22:58:43.437Z  
 
 ```cpp
 #include <stdio.h>
