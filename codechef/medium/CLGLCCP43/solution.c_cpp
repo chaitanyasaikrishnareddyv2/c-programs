@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    printf("Balance in millions: 500million\n""Total Bank Balance: 10000000 millions");
+    
+    return 0;
+}
