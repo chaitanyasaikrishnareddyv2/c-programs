@@ -4,28 +4,31 @@
 
 ## Problem
 
-_Description not available._
+### Display day of the week
+
+You are asked to create a program that displays the day of the week based on the first letter of the day. The program should use a `char` variable to store the first letter of a day (such as 'M' for Monday, 'T' for Tuesday, etc.), and based on the stored char, it should display the full name of the day.
+
+ **When executed, the code will show:** 
+
+```
+The letter is W and the day is Wednesday
+
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T01:38:34.032Z  
+**Submitted:** 2026-09-27T01:40:15.431Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
-    char gender = 'M';     // M for Male
-    char grade = 'B';      // B grade for performance
-
-    printf("Gender: %c\n", gender); // format specifier '%c' is used to print a single character
-    printf("Grade: %c", grade);
-
+    printf("The letter is W and the day is Wednesday");
     return 0;
 }
-
 ```
 
 ---
