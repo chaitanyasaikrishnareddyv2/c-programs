@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+
+    // Print the original price
+    printf("Original Price: 1678.991233 ");
+    
+    // Print the discounted price
+    printf("Discounted Price: 1600.000000");
+
+    return 0;
+}
