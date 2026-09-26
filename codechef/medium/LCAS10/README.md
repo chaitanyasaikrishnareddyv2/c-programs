@@ -13,7 +13,7 @@ Write a C program to print `$`
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T01:51:47.257Z  
+**Submitted:** 2026-09-27T01:52:16.664Z  
 
 ```c_cpp
 #include <stdio.h>
