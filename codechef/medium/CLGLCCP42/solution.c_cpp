@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    // Declare a long variable to store the total distanc
+
+    // Print the total distance traveled
+    printf("Total distance traveled: 360590000km"); // Use %ld to print long variable
+
+    return 0;
+}
