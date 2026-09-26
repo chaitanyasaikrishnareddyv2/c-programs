@@ -1,0 +1,7 @@
+#include <stdio.h> // Include standard input/output header
+
+int main() {
+    printf("My Name is Mike. I scored 95.5%%. Which was the second score");
+
+    return 0; // End of the program
+}
