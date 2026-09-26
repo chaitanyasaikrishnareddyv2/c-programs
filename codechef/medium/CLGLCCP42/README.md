@@ -4,24 +4,31 @@
 
 ## Problem
 
-_Description not available._
+### Displaying Bank Balance with long
+
+In this problem, you are tasked with handling large numerical values representing a bank balance. The goal is to demonstrate how both `int` and `long` data types can be used to manage values of different magnitudes.
+
+ **Expected Output:** 
+
+```
+Balance in millions: 500 million
+Total Bank Balance: 10000000 millions
+
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T23:06:49.152Z  
+**Submitted:** 2026-09-27T01:33:11.225Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
-    // Declare a long variable to store the total distanc
-
-    // Print the total distance traveled
-    printf("Total distance traveled: 360590000km"); // Use %ld to print long variable
-
+    printf("Balance in millions: 500million\n""Total Bank Balance: 10000000 millions");
+    
     return 0;
 }
 ```
