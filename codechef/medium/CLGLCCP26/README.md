@@ -4,17 +4,16 @@
 
 ## Problem
 
-### Displaying Countries and Capitals
+### Item and Price Display
 
-In this example, we create a program that prints a neatly structured table using escape sequences like `\t` (tab) and `\n` (newline). The table lists countries alongside their respective capitals. Tabs are used to align the columns clearly, and newlines move to the next row after each entry.
+Your task is to complete the following C program by filling in the missing `printf` statements using appropriate  **escape sequences**  (`\t`) to format the output as shown below.
 
- **When executed, the code will display:** 
+ **Expected Output:** 
 
 ```
-Country:	Capital:
-India		New Delhi
-France		Paris
-Japan		Tokyo
+Item:		Price:	Quantity:
+Pen			$1.20	10
+Notebook	$2.50	5
 
 ```
 
@@ -23,21 +22,22 @@ Japan		Tokyo
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T22:30:00.534Z  
+**Submitted:** 2026-09-26T22:35:57.307Z  
 
 ```c_cpp
-#include <stdio.h> // Include standard input/output library
+#include <stdio.h>
 
 int main() {
-    // Print header row with tabs to separate "Country" and "Capital"
-    printf("Country:\tCapital:\n");
+    // TODO: Print header with tab escape sequences
+    printf("Item:\t\tPrice:\t\Quantity\n");
 
-    // Print each country with its capital, using \t for spacing and \n for new lines
-    printf("India\t\tNew Delhi\n");     // Print India's capital
-    printf("France\t\tParis\n");        // Print France's capital
-    printf("Japan\t\tTokyo\n");         // Print Japan's capital
+    // TODO: Print Pen details with tab spacing
+    printf("Pen:\t\t$1.20\t10\n");
 
-    return 0; // Return 0 to indicate successful program execution
+    // TODO: Print Notebook details with tab spacing
+    printf("Notebook\t$2.50\t5");
+
+    return 0;
 }
 ```
 
