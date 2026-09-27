@@ -20,7 +20,7 @@ My name is Mike. I scored 95.5%. Which was the second score.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T22:18:00.516Z  
+**Submitted:** 2026-09-27T22:18:13.002Z  
 
 ```c_cpp
 #include <stdio.h> // Include standard input/output header
