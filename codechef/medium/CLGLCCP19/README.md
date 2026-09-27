@@ -41,7 +41,7 @@ printf("% percent");
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T22:17:12.116Z  
+**Submitted:** 2026-09-27T22:17:12.168Z  
 
 ```cpp
 #include <stdio.h>  // Include standard input/output library
