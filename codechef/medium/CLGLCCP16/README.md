@@ -20,7 +20,7 @@ User Details: Name: Adam Age: 21
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T22:16:14.873Z  
+**Submitted:** 2026-09-27T22:16:38.247Z  
 
 ```c_cpp
 #include <stdio.h> // Include the standard input/output library
