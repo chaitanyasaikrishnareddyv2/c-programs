@@ -4,26 +4,33 @@
 
 ## Problem
 
-### Worked Example - Comparing Two Prices
+### Output of the code
 
-In this example, we demonstrate how the Not Equal to `(!=)` operator works in C. We compare two product prices to check if they are not equal. The result is printed directly, showing whether the prices differ.
-
- **When executed, the code will show:** 
+Select the correct option that corresponds to the output when the code is executed.
 
 ```
-Are price1 and price2 not equal? 1
-Are price1 and price2 not equal? 0
+#include <stdio.h>
+
+int main() {
+    int num1 = 50;          // Integer value
+    float num2 = 50.05;     // Floating-point value
+
+    // Compare using != to check if num1 and num2 are not equal
+    printf("Result: %d\n", num1 != num2);
+
+    return 0;
+}
 
 ```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T23:59:30.789Z  
+**Submitted:** 2026-10-01T00:00:18.180Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 int main() {
