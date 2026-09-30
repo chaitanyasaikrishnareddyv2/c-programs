@@ -4,16 +4,30 @@
 
 ## Problem
 
-_Description not available._
+### Output for Post-increment Operator in C
+
+What will be the output of the following C code?
+
+```
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+    printf("%d ", x++);
+    printf("%d ", x);
+    return 0;
+}
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T23:38:42.881Z  
+**Submitted:** 2026-09-30T23:39:17.111Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 int main() {
