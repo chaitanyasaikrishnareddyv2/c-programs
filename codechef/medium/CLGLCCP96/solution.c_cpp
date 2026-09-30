@@ -1,0 +1,16 @@
+#include <stdio.h> 
+
+int main() {
+    // Declare current day and number of days to advance
+    int currentDay = 5;      // 5 = Friday (0 = Sunday, 6 = Saturday)
+    int daysToAdd = 10;      // Number of days to move forward
+
+    // Write Your Code
+
+    // Print the result
+    printf("Current Day (0=Sun...6=Sat): 5\n");
+    printf("Days to Add: 10\n");
+    printf("New Day (0=Sun...6=Sat): 1\n");
+
+    return 0;
+}
