@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+  printf("Is the light on? 1\nIs night mode active? 0\nIs the sensor Active? 1\nIs the Heating on? 1");
+    
+    
+
+    return 0;
+}
