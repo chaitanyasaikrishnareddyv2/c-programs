@@ -41,19 +41,16 @@ printf("% percent");
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T22:17:12.168Z  
+**Submitted:** 2026-09-30T23:06:44.952Z  
 
 ```cpp
-#include <stdio.h>  // Include standard input/output library
+#include <stdio.h> 
 
 int main() {
-    // Print the name of a cat
-    printf("This is my cat, Luna.");
+    
+    printf("This is my cat, Luna.""This is my dog, Max.");
 
-    // Print the name of a dog
-    printf("This is my dog, Max.");
-
-    return 0;  // Indicate successful program termination
+    return 0; 
 }
 ```
 
