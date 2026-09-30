@@ -1,0 +1,7 @@
+#include <stdio.h>  
+
+int main() {
+    printf("Gross Revenue from Tickets: 6000\nAfter Expenses: 5700\nFinal Total with Snacks: 6200");
+   
+    return 0;  
+}
