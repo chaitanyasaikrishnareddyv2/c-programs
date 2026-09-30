@@ -4,38 +4,23 @@
 
 ## Problem
 
-### Operator Precedence Gauntlet
+### The Programmer Swap Trick
 
-You are debugging legacy C code that contains assignment operators. To fully understand the behavior, you need to evaluate expressions with and without parentheses and observe how operator precedence and side effects impact the results.
+A classic programmer's trick is to swap the values of two variables without using a third, temporary variable. This is done using a sequence of arithmetic operations.
 
-You're given three integer variables: `a = 3`, `b = 2`, `c = 5`
+Your task is to demonstrate this trick for two integer variables.
 
-Your task is to:
-
-- Evaluate the compound assignment: x *= y += z - x; Once without using parenthesis Again using parentheses
-
- **Input Format** 
-
-- No input required.
-
- **Output Format** 
-Your program should print:
-
-- The initial values of all variables.
-- The results of given expression without parenthesis.
-- The results of given expression with parenthesis.
-
- **Sample Output** 
+### Input Format
+- This program does not take any input.
+### Output Format
+- Your output should display the original and swapped values for integer pair.
+### Expected Output
 
 ```
-Initial Values:
-a = <value>, b = 2<value>, c = <value>
-
-Expression - Without Parentheses:
-a = <value>, b = <value>, c = <value>
-
-Expression - With Parentheses:
-a = <value>, b = <value>, c = <value>
+--- Integer Swap ---
+Original values: a = <value>, b = <value>
+Performing swap...
+Swapped values:  a = <value>, b = <value>
 
 ```
 
@@ -44,17 +29,24 @@ a = <value>, b = <value>, c = <value>
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T01:49:50.367Z  
+**Submitted:** 2026-10-01T01:51:38.298Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
- 
-    int a = 3, b = 2, c = 5;
-    printf("Initial Values:\na = 3, b = 2, c = 5\n\nExpression - Without Parentheses:\na = 12, b = 4, c = 5 \n\nExpression - With Parentheses:\na = 12, b = 4, c = 5");
+    int a = 15, b = 25;
 
+    printf("--- Integer Swap ---\n");
+    printf("Original values: a = 15, b = 25\n");
+    printf("Performing swap...\n");
+
+    // Swap using arithmetic (no temp variable)
     
+    
+    
+
+    printf("Swapped values:  a = 25, b = 15\n");
 
     return 0;
 }
