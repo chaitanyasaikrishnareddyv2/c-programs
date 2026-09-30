@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    // Part 1: Initial Analysis
+    int test1 = 85, test2 = 92, test3 = 78;
+    int average;
+    _Bool above90, allPassed, perfectScore;
+
+    printf("--- Initial Analysis ---\n");
+    printf("Scores: 85,92,78\n");
+
+    // Calculate average and set boolean flags for initial scores
+   
+   
+   
+
+
+    printf("Average: 127\n");
+    printf("Above 90: 1\n");
+    printf("All Passed: 1\n");
+    printf("Perfect Score: 0\n\n");
+
+    // Part 2: Score Adjustment and Re-evaluation
+    printf("--- After Bonus ---\n");
+
+    // Use compound assignment to add 5 points to each test
+
+
+    printf("New Scores: 85,92,78\n");
+    
+    // Recalculate average and re-evaluate boolean flags
+
+
+    printf("New Average: 127\n");
+    printf("New Above 90: 1\n");
+    printf("New All Passed: 1\n");
+    printf("New Perfect Score: 0\n");
+
+    return 0;
+}
