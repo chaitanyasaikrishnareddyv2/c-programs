@@ -20,16 +20,14 @@ User Details: Name: Adam Age: 21
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T22:16:38.247Z  
+**Submitted:** 2026-09-30T23:06:12.170Z  
 
 ```c_cpp
-#include <stdio.h> // Include the standard input/output library
-
-// Main function where the program execution begins
-int main() {
-    
-printf("User Details: Name: Adam Age: 21");
-    return 0; // Indicate successful program end
+#include <stdio.h> 
+int main()
+{
+    printf("User Details: Name: Adam Age: 21");
+    return 0;
 }
 ```
 
