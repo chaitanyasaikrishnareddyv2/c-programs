@@ -26,7 +26,7 @@ Is the vehicle within the speed limit? 1
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T00:12:18.124Z  
+**Submitted:** 2026-10-01T00:12:29.159Z  
 
 ```c_cpp
 #include <stdio.h>
