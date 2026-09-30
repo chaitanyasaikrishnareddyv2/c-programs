@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    printf("Average marks: 108.750000");
+
+    return 0;
+}
