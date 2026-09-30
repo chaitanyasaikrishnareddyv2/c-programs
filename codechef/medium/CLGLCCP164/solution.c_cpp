@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    
+    // Print result of the logical expression
+    printf("Did the number NOT pass the even check or is positive? 1\n");
+
+    return 0;
+}
