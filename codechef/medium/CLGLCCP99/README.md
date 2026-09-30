@@ -4,16 +4,33 @@
 
 ## Problem
 
-_Description not available._
+### Final Value of result Using Assignment Operators
+
+Given the following code snippet, what will be the final value of `result`?
+
+```
+#include <stdio.h>
+
+int main() {
+    int result = 10;     
+    result += 5;         
+    result += 3;         
+    result += 2;         
+    result -= 4;         
+    printf("Result: %d\n", result);
+    return 0;
+}
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T23:32:06.115Z  
+**Submitted:** 2026-09-30T23:32:50.199Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>  
 
 int main() {
