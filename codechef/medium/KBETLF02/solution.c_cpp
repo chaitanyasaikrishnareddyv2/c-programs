@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    printf("Post-increment: 5\nPre-increment: 7\nPost-decrement: 7\nPre-decrement: 5\n\nCounter reset to 5\n\nComplex expression result: 7\n\nFinal counter value: 6");
+    return 0;
+}
