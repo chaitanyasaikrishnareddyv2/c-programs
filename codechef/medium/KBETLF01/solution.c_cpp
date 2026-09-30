@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+
+    
+
+    printf("--- Default Precedence ---\n");
+    printf("Expression: 10 + 3 * 2\nResult: 16\n\n");
+    printf("Expression: 10 - 3 / 2 + 1\nResult: 10\n\n");
+    printf("Expression: 10 %% 3 + 2 * 2\nResult: 5\n\n");
+    
+    
+    
+    
+
+
+    printf("\n--- Forced Precedence with Parentheses ---\n");
+    printf("Expression: (10 + 3) * 2\nResult: 26\n\n");
+    printf("Expression: (10 - 3) / 2 + 1\nResult: 4\n\n");
+    printf("Expression: 10 %% (3 + 2) * 2 \nResult: 0");
+    
+    // Part 2: Recalculate and print results using parentheses to change precedence
+   
+   
+   
+
+
+    return 0;
+}
