@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+   
+    // Compare using the less than operator (<)
+    printf("Is shoeSize1 less than shoeSize2? 1\n");  // Expected output: 1 (true)
+
+    // Change shoeSize1 to a larger size
+   
+    // Compare again using the less than operator
+    printf("Is shoeSize1 less than shoeSize2? 0\n");  // Expected output: 0 (false)
+
+    return 0;
+}
