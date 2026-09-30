@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    
+    // Compare using the less than or equal to operator (<=)
+    printf("Is grade1 less than or equal to grade2? 1\n");  
+
+    // Change grade1 to a greater value
+   // Now grade1 is greater than grade2
+
+    // Compare again using the less than or equal to operator
+    printf("Is grade1 less than or equal to grade2? 0\n");  
+
+    return 0;
+}
