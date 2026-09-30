@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    
+    // Compare if current temperature is greater than freezing point
+    printf("Is the current temperature greater than the freezing point? 1\n");
+    // Compare again if current temperature is greater than freezing point
+    printf("Is the current temperature greater than the freezing point? 0\n");
+    return 0;
+}
+
