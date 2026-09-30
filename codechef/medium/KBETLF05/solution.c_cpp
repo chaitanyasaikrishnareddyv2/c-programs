@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main() 
-{
-    printf("Initial stock: 20\nAfter Shipment: 35\nAfter Return: 27\nAfter Promotion: 54\nAfter Palletizing: 18\nRemaining stock after packing: 3" );
 
+int main() {
+    
+
+    printf("Result 1 (double): 27.600000\nResult 2 (double): 5.800000\nResult 3 (int): 80\nResult 4 (float): 8.250000\nIs Result 1 > Result 2?: 1\nIs Result 3 the char 'P'?: 1");
     return 0;
 }
