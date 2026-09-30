@@ -1,0 +1,13 @@
+#include <stdio.h>  
+
+int main() {
+    
+    // Print all results
+    printf("Total Chocolates: 123\n");    
+    printf("Box Capacity: 12\n");            
+    printf("Full Boxes: 10\n");                
+    printf("Remaining Chocolates: 3\n");
+
+
+    return 0; 
+}
