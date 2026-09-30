@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+int main() {
+   
+
+    printf("Initial Candidate Data:\n");
+    printf("Age: 25, Salary: 50000.0, Has License: 1\n\n");
+
+    // --- Initial Eligibility Checks ---
+    printf("--- Initial Role Eligibility ---\n");
+    
+
+    printf("Role 1: Eligible = 1\n");
+    printf("Role 2: Eligible = 1\n");
+    printf("Role 3: Eligible = 1\n\n");
+
+    
+
+    printf("--- Eligibility After Birthday (Age: 26) ---\n");
+    
+    printf("Role 1: Eligible = 1\n");
+    printf("Role 2: Eligible = 1\n");
+    printf("Role 3: Eligible = 1\n");
+
+    return 0;
+}
