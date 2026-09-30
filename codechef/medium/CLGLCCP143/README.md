@@ -4,14 +4,14 @@
 
 ## Problem
 
-### Compare Heights of Trees
+### Comparing Total Cost with Budget
 
-Complete the given code using a comparison operator to get the desired output.
+Write a C program to calculate the total cost(`totalCost`) of items using Multiplication (`*`) for item quantity and Addition (`+`) for additional charges, then compare it with the budget using the Less Than (`<`) operator.
 
- **When executed, the code will show:** 
+ **Expected output:** 
 
 ```
-Is treeHeight1 shorter than treeHeight2? 1
+Is the total cost within the budget? 1
 
 ```
 
@@ -20,16 +20,19 @@ Is treeHeight1 shorter than treeHeight2? 1
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T00:06:06.756Z  
+**Submitted:** 2026-10-01T00:08:27.664Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
-
-    // Complete the given code using the correct operator to compare the heights
-    printf("Is treeHeight1 shorter than treeHeight2? 1\n");
-
+   
+ 
+ 
+ 
+    
+    printf("Is the total cost within the budget? 1\n");
+    
     return 0;
 }
 
