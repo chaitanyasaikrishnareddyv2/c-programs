@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    
+    
+    printf("Is the vehicle within the speed limit? 1\n");
+
+    return 0;
+}
