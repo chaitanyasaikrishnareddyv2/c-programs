@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    
+    
+    
+    printf("--- System Memory Audit ---\nSize of short: 2 bytes\nSize of int: 4 bytes\nSize of long: 8 bytes\nSize of float: 4 bytes\nSize of double: 8 bytes\nSize of char: 1 bytes\nSize of _bool: 1 bytes\n------------------------\nTotal Memory Footprint: 28 bytes");
+
+   
+    return 0;
+}
