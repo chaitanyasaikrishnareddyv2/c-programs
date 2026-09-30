@@ -4,16 +4,29 @@
 
 ## Problem
 
-_Description not available._
+### Find output of arithmetic expression
+
+What will be the output of the following C code snippet?
+
+```
+#include <stdio.h>
+
+int main() {
+    int result = 20 + 5 * 3 - 12 / 4; // The arithmetic expression
+    printf("%d\n", result);
+    return 0;
+}
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T00:20:10.583Z  
+**Submitted:** 2026-10-01T00:20:38.962Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 int main() {
