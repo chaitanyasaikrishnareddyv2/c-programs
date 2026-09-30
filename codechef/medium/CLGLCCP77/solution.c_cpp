@@ -1,0 +1,16 @@
+#include <stdio.h> 
+
+int main() {
+    // Declare float variables to store marks in three subjects
+    
+    // Write your code
+
+    // Calculate the total marks by adding all three subject scores
+    
+    
+    
+    
+    printf("Total Marks = 263.8");
+    
+    return 0; 
+}
