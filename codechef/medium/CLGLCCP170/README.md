@@ -4,36 +4,16 @@
 
 ## Problem
 
-### Find the Output
-
-What will be the output of the following C code, considering operator associativity?
-
-```
-#include <stdio.h>
-
-int main() {
-    int x = 15, y = 7, z = 3;
-    
-    int temp = z * 3;     
-    int temp2 = temp + 5; 
-
-    y = temp2;            
-    int result = x;       
-
-    printf("%d\n", result); 
-    return 0;
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T00:22:08.973Z  
+**Submitted:** 2026-10-01T00:21:34.580Z  
 
-```cpp
+```c_cpp
 #include <stdio.h>
 
 int main() {
