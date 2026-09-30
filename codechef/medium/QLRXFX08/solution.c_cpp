@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+
+    printf("Original double: 65.700000\n... converted to int: 65\n... converted to char: A\n... char's integer value: 65");
+   
+
+    return 0;
+}
