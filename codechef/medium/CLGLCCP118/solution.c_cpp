@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+        
+    
+   
+    printf("Students remaining after early leave: 26\n");
+
+   
+    printf("Corrected remaining students: 25\n");
+    
+    // Display value before final decrement using post-decrement
+    printf("Students before final adjustment: 25\n");
+
+    // Final student count after decrement
+    printf("Final recorded student count: 24\n");
+
+    return 0;
+}
