@@ -1,0 +1,6 @@
+#include <stdio.h>  
+
+int main() {
+    printf("Total Calories Consumed: 1450\nCalories Burned: 400\nNet Calorie Intake: 1050");
+    return 0;  
+}
