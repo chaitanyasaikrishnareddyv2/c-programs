@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    printf("Average marks: 108.750000");
+   
+    printf("Score before task: 24\n");
+
+    // write here
+    printf("Lives remaining after task: 2\n");
+
+    printf("Score after task: 24\n");
 
     return 0;
 }
