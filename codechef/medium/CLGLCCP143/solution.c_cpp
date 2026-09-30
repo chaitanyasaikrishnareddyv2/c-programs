@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+
+    // Complete the given code using the correct operator to compare the heights
+    printf("Is treeHeight1 shorter than treeHeight2? 1\n");
+
+    return 0;
+}
