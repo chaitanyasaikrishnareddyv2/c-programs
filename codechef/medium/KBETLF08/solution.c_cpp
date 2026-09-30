@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+ 
+    int a = 3, b = 2, c = 5;
+    printf("Initial Values:\na = 3, b = 2, c = 5\n\nExpression - Without Parentheses:\na = 12, b = 4, c = 5 \n\nExpression - With Parentheses:\na = 12, b = 4, c = 5");
+
+    
+
+    return 0;
+}
