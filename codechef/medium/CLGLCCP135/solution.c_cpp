@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    
+    
+    
+    
+    
+    
+    // Check if the total items in the cart are not equal to the target number
+    printf("Is the number of items in the cart not equal to the target? 1\n");
+
+    return 0;
+}
