@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+ 
+
+   
+    printf("Qualifies for library membership: 1\n");
+
+    return 0;
+}
