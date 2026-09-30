@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+     
+
+    // Show tickets available before booking
+    printf("Tickets available before booking: 18\n");
+
+    // Customer 1 books a ticket, pre-decrement before showing updated count
+    printf("Customer 1 books a ticket: 17\n");
+
+    // Customer 2 books a ticket, pre-decrement again before showing updated count
+    printf("Customer 2 books a ticket: 16\n");
+
+    // Show final tickets available after two bookings
+    printf("Tickets remaining after bookings: 16\n");
+
+    return 0;
+}
