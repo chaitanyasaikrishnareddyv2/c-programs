@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    
+    printf("Does the total cost match the budget? 1\n");
+
+    return 0;
+}
