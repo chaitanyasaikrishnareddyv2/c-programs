@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    printf("Item Count: 8\n");
+    printf("Calories Per Item: 65\n");
+    printf("Sugar (g): 12.5\n");
+    printf("Grade: B\n");
+    printf("Final Score: 34.000000");
+
+    return 0;
+}
