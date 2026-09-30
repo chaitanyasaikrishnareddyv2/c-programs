@@ -22,19 +22,16 @@ This is my cat, Luna.This is my dog, Max.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T22:16:54.375Z  
+**Submitted:** 2026-09-30T23:06:28.117Z  
 
 ```c_cpp
-#include <stdio.h>  // Include standard input/output library
+#include <stdio.h> 
 
 int main() {
-    // Print the name of a cat
-    printf("This is my cat, Luna.");
+    
+    printf("This is my cat, Luna.""This is my dog, Max.");
 
-    // Print the name of a dog
-    printf("This is my dog, Max.");
-
-    return 0;  // Indicate successful program termination
+    return 0; 
 }
 ```
 
