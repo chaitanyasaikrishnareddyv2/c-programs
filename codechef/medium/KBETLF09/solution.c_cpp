@@ -1,11 +1,18 @@
 #include <stdio.h>
 
 int main() {
- 
-    int a = 3, b = 2, c = 5;
-    printf("Initial Values:\na = 3, b = 2, c = 5\n\nExpression - Without Parentheses:\na = 12, b = 4, c = 5 \n\nExpression - With Parentheses:\na = 12, b = 4, c = 5");
+    int a = 15, b = 25;
 
+    printf("--- Integer Swap ---\n");
+    printf("Original values: a = 15, b = 25\n");
+    printf("Performing swap...\n");
+
+    // Swap using arithmetic (no temp variable)
     
+    
+    
+
+    printf("Swapped values:  a = 25, b = 15\n");
 
     return 0;
 }
