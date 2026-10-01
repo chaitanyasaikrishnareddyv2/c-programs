@@ -26,19 +26,19 @@ Swapped values:  a = <value>, b = <value>
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T01:51:38.298Z  
+**Submitted:** 2026-10-02T02:34:12.367Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 int main() {
     int a = 15, b = 25;
 
     printf("--- Integer Swap ---\n");
-    printf("Original values: a = 15, b = 25\n");
+    printf("Original values: a = %d, b = %d\n", a, b);
     printf("Performing swap...\n");
 
     // Swap using arithmetic (no temp variable)
@@ -46,7 +46,7 @@ int main() {
     
     
 
-    printf("Swapped values:  a = 25, b = 15\n");
+    printf("Swapped values:  a = %d, b = %d\n", a, b);
 
     return 0;
 }
