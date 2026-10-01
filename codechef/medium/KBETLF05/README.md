@@ -52,16 +52,45 @@ Is Result 3 the char 'P'?: <0 or 1>
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T01:27:34.658Z  
+**Submitted:** 2026-10-02T02:00:04.917Z  
 
 ```c_cpp
 #include <stdio.h>
-
+#include <stdbool.h>
 
 int main() {
+    // 1. Declare and initialize the raw data variables
+    int x = 15;
+    float y = 4.5;
+    double z = 2.8;
+    char c = 'A';
+
+    // --- START YOUR CODE HERE ---
+
+    // 2. Perform the mixed-type calculations
+        double r1 = (x + y * z);
+        double r2 = (x / (int)y + z);
+        int r3 = c + x;
+        float r4 = (float)x/4 + y;
     
 
-    printf("Result 1 (double): 27.600000\nResult 2 (double): 5.800000\nResult 3 (int): 80\nResult 4 (float): 8.250000\nIs Result 1 > Result 2?: 1\nIs Result 3 the char 'P'?: 1");
+    // 3. Use comparison operators to set boolean flags
+    _Bool r = (r1 > r2);
+    _Bool re = (r3 == 'P');
+    
+    
+    // 4. Print all the results with descriptive labels
+   printf("Result 1 (double): %f\n",r1);
+   printf("Result 2 (double): %f\n",r2);
+   printf("Result 3 (int): %d\n",r3);
+   printf("Result 4 (float): %f\n",r4);
+   printf("Is Result 1 > Result 2?: %d\n", r);
+   printf("Is Result 3 the char 'p'?: %d\n", re);
+    
+
+
+    // --- END YOUR CODE HERE ---
+
     return 0;
 }
 ```
