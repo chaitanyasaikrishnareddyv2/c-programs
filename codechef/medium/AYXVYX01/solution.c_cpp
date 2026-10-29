@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    int scores[100];
+
+    for (int i = 1; i <= n; i++) {
+        scanf("%d\t", &scores[i]);
+    }
+
+    for (int i = n; i>=1; i--)
+    {
+        printf("%d\t",scores[i]);
+    }// Your code to print the array in reverse goes here.
+    
+
+
+    return 0;
+}
