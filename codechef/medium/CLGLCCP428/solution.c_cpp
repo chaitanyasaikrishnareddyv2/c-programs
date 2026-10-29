@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+// Function declaration: declares a function that takes two integers and returns nothing
+void printOperations(int a, int b);
+
+int main() {
+    int num1, num2;
+
+    // Read first integer from user
+    scanf("%d", &num1);
+    // Read second integer from user
+    scanf("%d", &num2);
+
+    // Call the function with user inputs
+    printOperations(num1, num2);
+
+    return 0;  // End of program
+}
+
+// Function definition: performs and prints sum, product, and division of two integers
+void printOperations(int a, int b) {
+    int sum = a + b;          // Calculate sum
+    int product = a * b;      // Calculate product
+
+    printf("Sum: %d\n", sum);         
+    printf("Product: %d\n", product); 
+
+    // Check if second number is zero before division to avoid error
+    if (b != 0) {
+        double division = (double)a / b;      // Perform floating-point division
+        printf("Division: %.2lf\n", division);  // Print division result with 2 decimal places
+    } else {
+        printf("Division: Cannot divide by zero.\n");  // Handle division by zero case
+    }
+}
