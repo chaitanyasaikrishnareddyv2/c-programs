@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+
+#define SIZE 8
+
+int main() {
+    int original_ids[SIZE];
+    int copied_ids[SIZE];
+    int i;
+
+    for (i = 0; i < SIZE; i++) {
+        scanf("%d", &original_ids[i]);
+    }
+
+    memcpy(copied_ids,original_ids,sizeof(original_ids));
+
+
+
+    for (i = 0; i < SIZE; i++) {
+        printf("%d ", copied_ids[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
