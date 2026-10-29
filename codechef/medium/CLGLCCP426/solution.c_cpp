@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+// Function declaration
+void printNumbers();
+
+int main() {
+    // Call the void function
+    printNumbers();
+    return 0;
+}
+
+// Function definition
+void printNumbers() {
+    
+    int n;
+    scanf("%d", &n);
+
+    if (n<=0) {
+        printf("Invalid Input\n");
+    } else {
+        
+        for(int i=1;i<=n;i++)
+        {
+            printf("%d\n",i);
+        }
+    }
+}
