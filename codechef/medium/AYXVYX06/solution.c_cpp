@@ -1,24 +1,23 @@
 #include <stdio.h>
 
-#define SIZE 5
-
 int main() {
-    int playlist[SIZE];
-    int i,last;
+    int scores[10];
+    int i;
 
-    for (i = 0; i < SIZE; i++) {
-        scanf("%d", &playlist[i]);
+    for (i = 0; i < 10; i++) {
+        scanf("%d", &scores[i]);
+        scores[i]=scores[i]*scores[i];
     }
-last = playlist[SIZE-1];
-    for(i=SIZE-1;i>0;i--)
-    {
-        playlist[i]=playlist[i-1];
-    }
-   playlist[0]=last;
-   
-   
-    for (i = 0; i < SIZE; i++) {
-        printf("%d ", playlist[i]);
+
+    // --- Your Code Here ---
+    
+    
+    
+
+    // --- End of Your Code ---
+
+    for (i = 0; i < 10; i++) {
+        printf("%d ", scores[i]);
     }
     printf("\n");
 
