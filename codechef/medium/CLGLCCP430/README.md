@@ -49,7 +49,7 @@ Strings are not equal
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T18:54:47.350Z  
+**Submitted:** 2026-10-29T18:55:30.561Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -59,8 +59,8 @@ void compareStrings(char s1[],char s2[]);
 int main() {
     char s1[100], s2[100];
 
-scanf("%d",&s1);
-scanf("%d",&s2);
+scanf("%s",&s1);
+scanf("%s",&s2);
 compareStrings(s1,s2);
 return 0;
 }
