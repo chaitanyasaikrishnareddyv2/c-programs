@@ -30,7 +30,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T16:45:12.194Z  
+**Submitted:** 2026-10-29T16:46:49.980Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -45,15 +45,13 @@ int main()
  {
      for(j=i+1;j<n;j++)
      {
-         for(k=j;k<n-1;k++)
-         {
+         
              if(a[i]==a[j])
              {
                 printf("%d",a[i]); 
                 c++;
                 break;
              }
-         }
      }
  }
  if(c==0)
