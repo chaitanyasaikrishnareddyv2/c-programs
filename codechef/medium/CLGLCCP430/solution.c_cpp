@@ -5,8 +5,8 @@ void compareStrings(char s1[],char s2[]);
 int main() {
     char s1[100], s2[100];
 
-scanf("%d",&s1);
-scanf("%d",&s2);
+scanf("%s",&s1);
+scanf("%s",&s2);
 compareStrings(s1,s2);
 return 0;
 }
