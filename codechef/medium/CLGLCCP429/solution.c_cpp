@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+// Function declaration
+void printLength(message);
+
+int main() {
+    char message[] = "Hello, C programming!";
+    printLength(message);  // Call the function
+    return 0;
+}
+
+// Function definition
+void printLength(char str[]) {
+    int length = 0;
+    
+    // Fill in the code to calculate the string length
+    while (str[length]!='\0') {
+        length++;
+    }
+    
+    printf("Length of the string is: %d\n", length);
+}
