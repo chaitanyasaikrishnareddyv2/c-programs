@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+
+void compareStrings(char s1[],char s2[]);
+int main() {
+    char s1[100], s2[100];
+
+scanf("%d",&s1);
+scanf("%d",&s2);
+compareStrings(s1,s2);
+return 0;
+}
+void compareStrings(char s1[],char s2[])
+{
+if(strcmp(s1,s2) == 0)
+{
+    printf("Strings are equal");
+}
+else
+{
+    printf("Strings are not equal");
+}
+}
+
