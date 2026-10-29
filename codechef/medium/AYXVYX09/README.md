@@ -53,7 +53,7 @@ Part not found
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T17:25:09.013Z  
+**Submitted:** 2026-10-29T17:27:01.949Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -61,7 +61,7 @@ Part not found
 int main() {
     int warehouse[4][4];
     int target;
-    int i, j,c;
+    int i, j,c=0;
 
     for (i = 0; i < 4; i++) {
         for (j = 0; j < 4; j++) {
