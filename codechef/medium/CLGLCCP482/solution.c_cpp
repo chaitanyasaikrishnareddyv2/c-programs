@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    int A[2][3] = { {1, 2, 3}, {4, 5, 6} };    // 2x3 matrix
+    int B[3][2] = { {7, 8}, {9, 10}, {11, 12} }; // 3x2 matrix
+    int C[2][2];  // Result matrix 2x2
+
+    // Initialize result matrix
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 2; j++) {
+            C[i][j] = 0;
+        }
+    }
+
+    // Multiply A and B to get C
+    for (int i = 0; i < 2; i++) {        // Row of A
+        for (int j = 0; j < 2; j++) {    // Column of B
+            for (int k = 0; k < 3; k++) {// Dot product
+                C[i][j] += A[i][k] * B[k][j];
+            }
+        }
+    }
+
+    // Print result matrix
+    printf("Matrix C:\n");
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 2; j++) {
+            printf("%d ", C[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
