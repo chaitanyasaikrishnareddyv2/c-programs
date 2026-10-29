@@ -4,16 +4,37 @@
 
 ## Problem
 
-_Description not available._
+### MCQ - Output of Function
+
+What will be the output of the following C program?
+
+```
+#include <stdio.h>
+
+// Function definition
+void performCalculation() {
+    int a = 4;
+    int b = 5;
+    int product = a * b;
+
+    printf("The product is: %d\n", product);
+}
+
+int main() {
+    performCalculation();  // Function call
+    return 0;
+}
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T18:28:45.333Z  
+**Submitted:** 2026-10-29T18:28:59.505Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 // Function declaration (prototype)
