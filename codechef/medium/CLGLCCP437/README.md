@@ -53,7 +53,7 @@ The maximum number is: 20
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T19:16:35.148Z  
+**Submitted:** 2026-10-29T19:18:12.903Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -66,7 +66,7 @@ int main() {
     scanf("%d",&num1);
     scanf("%d",&num2);
     int max = findmax(num1 ,num2);
-    printf("The maximum number is: %d\n",num1);
+    printf("The maximum number is: %d\n",max);
     
     
     return 0;
