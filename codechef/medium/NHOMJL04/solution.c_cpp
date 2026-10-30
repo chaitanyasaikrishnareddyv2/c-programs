@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main() {
+    char input[101];
+    char priceStr[20];
+    int i; float j;
+
+    // Read the full line
+    fgets(input, sizeof(input), stdin);
+
+
+    char *ptr = strstr(input,"Rs. ");
+    if(ptr !=NULL)
+    {
+        j = atof(ptr+4);
+    }
+        double d = 1.18*j;
+        
+
+        printf("Final Bill: Rs. %.2f\n", d);
+    
+
+    return 0;
+}
