@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int num = 2025;             // Integer number
+    double pi = 3.14159;        // Floating-point number
+    char strNum[20];            // Array to store integer as string
+    char strPi[30];             // Array to store float as string
+
+    // Convert integer to string
+    sprintf(strNum, "%d", num);
+
+    // Convert floating-point number to string with 2 decimal places
+    sprintf(strPi, "%.2f", pi);
+
+    // Print the converted strings
+    printf("Integer as string: %s\n", strNum);
+    printf("Float as string: %s\n", strPi);
+
+    return 0;
+}
