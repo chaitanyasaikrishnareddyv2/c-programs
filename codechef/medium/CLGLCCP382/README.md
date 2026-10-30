@@ -53,7 +53,7 @@ One or both not found!
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T16:22:56.808Z  
+**Submitted:** 2026-10-30T16:30:00.054Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -66,11 +66,12 @@ int main() {
     
     //Your code goes here
     scanf("%s",str);
-   ch1 = strchr(str,'h');
-    *ch2 = strstr(str,"world");
-    if(ch1!=NULL&&ch2!=NULL)
+    scanf("%c",&ch1);
+    scanf("%s",ch2);
+   
+    if(strchr(str,ch1)!=NULL && strstr(str,ch2)!=NULL)
     {
-        printf("Both character and substring found!");
+        printf("Both character and substring found!\n");
     }
     else
     {
