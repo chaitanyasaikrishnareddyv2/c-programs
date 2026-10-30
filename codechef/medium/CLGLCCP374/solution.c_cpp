@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    char id[20];     // To store the full student ID entered by the user
+    char dept[3]; 
+    // To store the extracted 2-character department code
+    
+    // Your code goes here
+    scanf("%s",id);
+    for(int i = 0;i<3;i++)
+    {
+        dept[i] = id[i+1];
+    }
+    dept[3] = '/0';
+    if(dept == 'CS')
+    {
+        printf("Computer Science Student");
+    }
+    else
+    {
+        printf("Other Department");
+    }
+    return 0;
+}
