@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>  // Required for atoi() and atof()
+
+int main() {
+    char intStr[] = "12345";       // String representing an integer
+    char floatStr[] = "98.76";     // String representing a floating-point number
+
+    // Convert string to integer
+    int intValue = atoi(intStr);
+
+    // Convert string to floating-point number
+    double floatValue = atof(floatStr);
+
+    // Print the converted values
+    printf("Integer value: %d\n", intValue);
+    printf("Floating-point value: %.2f\n", floatValue);
+
+    return 0;
+}
