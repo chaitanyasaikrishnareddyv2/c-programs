@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    
+    // write your code here
+char name[50];
+int age;
+scanf("%s",name);
+scanf("%d",&age);
+sprintf(name,"%s is %d years old",name,age);
+printf("%s",name);
+    return 0;
+}
+
