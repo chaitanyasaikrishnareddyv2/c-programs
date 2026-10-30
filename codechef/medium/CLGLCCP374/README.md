@@ -42,7 +42,7 @@ Other Department
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T15:44:52.338Z  
+**Submitted:** 2026-10-30T15:45:12.686Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -57,7 +57,7 @@ int main() {
     scanf("%s",id);
     for(int i = 0;i<2;i++)
     {
-        dept[i] = id[i+1];
+        dept[i] = id[i];
     }
     dept[2] = '\0';
     if(strcmp(dept,"CS") == 0)
