@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char booking_code[10];
+    char flight_number[4];
+
+    // Read the 9-character booking code
+    scanf("%s",booking_code);
+
+    // --- Your code here ---
+   strncpy(flight_number,booking_code+3,3);
+   flight_number[3] = '\0';
+   
+   
+
+    // --- End of your code ---
+
+    printf("%s\n", flight_number);
+
+    return 0;
+}
