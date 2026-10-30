@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100];  // Declare a character array to store the input string
+    char ch1, ch2[20];  // A character and substring (ch2) to check for
+
+    
+    //Your code goes here
+   ch1 = strchr(str,'h');
+    *ch2 = strstr(str,"world");
+    if(ch1!=NULL&&ch2!=NULL)
+    {
+        printf("Both character and substring found!");
+    }
+    else
+    {
+        printf("One or both not found!");
+    }
+     return 0;
+}
