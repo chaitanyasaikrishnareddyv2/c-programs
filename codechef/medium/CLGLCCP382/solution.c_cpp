@@ -8,7 +8,7 @@ int main() {
     
     //Your code goes here
     scanf("%s",str);
-   ch1 = strchr(str,'h');
+   ch1 = strchr(str,"h");
     *ch2 = strstr(str,"world");
     if(ch1!=NULL&&ch2!=NULL)
     {
