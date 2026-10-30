@@ -13,7 +13,7 @@ int main() {
         dept[i] = id[i+1];
     }
     dept[2] = '\0';
-    if(strcmp(dept,"CS"))
+    if(strcmp(dept,"CS") == 0)
     {
         printf("Computer Science Student");
     }
