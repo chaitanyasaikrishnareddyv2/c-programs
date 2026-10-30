@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+int main() {
+    char firstName[] = "Ada";
+    char lastName[] = " Lovelace";
+    char fullName[50] = "";
+    char existingUser[] = "Charles Babbage";
+
+    // Step 1: Construct the full name using the given name parts.
+strcpy(fullName,firstName);
+strcat(fullName,lastName);
+
+
+
+    // Step 2: Find length of full name.
+
+    int nameLength = strlen(fullName);
+
+    // Step 3: Access the first and last characters of `fullName` by index.
+    char firstChar = fullName[0];
+    char lastChar = lastName[8];
+
+    // Step 4: Compare the constructed name with the existing user's name.
+    int comparisonResult = (fullName[0]<existingUser[0])?1:0;
+
+
+    printf("Final constructed name: %s\n", fullName);
+    printf("Length of the name: %d\n", nameLength);
+    printf("First character: %c\n", firstChar);
+    printf("Last character: %c\n", lastChar);
+    printf("Is the new name alphabetically first?: %d (1=true, 0=false)\n", comparisonResult);
+
+    return 0;
+}
