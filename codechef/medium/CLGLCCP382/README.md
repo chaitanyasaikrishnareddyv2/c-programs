@@ -53,7 +53,7 @@ One or both not found!
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T16:22:10.085Z  
+**Submitted:** 2026-10-30T16:21:43.069Z  
 
 ```c_cpp
 #include <stdio.h>
