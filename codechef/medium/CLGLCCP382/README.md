@@ -53,7 +53,7 @@ One or both not found!
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T16:30:00.054Z  
+**Submitted:** 2026-10-30T16:30:17.358Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -75,7 +75,7 @@ int main() {
     }
     else
     {
-        printf("One or both not found!");
+        printf("One or both not found!\n");
     }
      return 0;
 }
