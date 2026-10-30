@@ -53,7 +53,7 @@ One or both not found!
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T16:21:06.066Z  
+**Submitted:** 2026-10-30T16:22:10.085Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -66,7 +66,7 @@ int main() {
     
     //Your code goes here
     scanf("%s",str);
-   ch1 = strchr(str,'h');
+   ch1 = strchr(str,"h");
     *ch2 = strstr(str,"world");
     if(ch1!=NULL&&ch2!=NULL)
     {
