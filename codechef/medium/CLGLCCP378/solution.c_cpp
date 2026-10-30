@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100];  // Declare a character array to store the input string
+
+    //Your code goes here
+char *result1 = strchr(str,'@');
+char *result2 = strchr(str,'#');
+if(result1!=NULL&&result2!=NULL)
+{
+    printf("Both characters found!");
+}
+else
+{
+    printf("One or both characters not found!");
+}
+    return 0;
+}
