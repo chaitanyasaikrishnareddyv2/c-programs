@@ -4,16 +4,44 @@
 
 ## Problem
 
-_Description not available._
+### MCQ - String Case Conversion
+
+What will be the output of the following C program, which converts a string to uppercase and then back to lowercase?
+
+```
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+
+int main() {
+    char str[] = "Welcome to C Programming";  // Predefined string
+
+    // Convert the string to uppercase
+    for (int i = 0; i < strlen(str); i++) {
+        str[i] = toupper(str[i]);
+    }
+
+    // Convert the string back to lowercase
+    for (int i = 0; i < strlen(str); i++) {
+        str[i] = tolower(str[i]);
+    }
+
+    // Print the modified string
+    printf("Modified string: %s\n", str);
+
+    return 0;
+}
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T17:08:50.642Z  
+**Submitted:** 2026-10-30T17:09:14.452Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
