@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    // Declare and initialize the source string
+    char source[100];
+    
+    // Declare a destination string with enough space
+    char destination[100];
+    int n;
+    //Your code goes here
+    scanf("%s",source);
+    scanf("%d",&n);
+    strncpy(destination,source,n);
+    destination[n] = '\0';
+    //Ensure that the copied string is null-terminated properly.
+   
+    printf("Copied portion: %s\n", destination);
+    
+    return 0;
+}
