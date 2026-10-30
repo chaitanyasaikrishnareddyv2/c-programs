@@ -10,7 +10,7 @@ int main() {
     scanf("%s",id);
     for(int i = 0;i<2;i++)
     {
-        dept[i] = id[i+1];
+        dept[i] = id[i];
     }
     dept[2] = '\0';
     if(strcmp(dept,"CS") == 0)
