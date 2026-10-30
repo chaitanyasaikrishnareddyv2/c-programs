@@ -17,7 +17,7 @@ int main() {
     }
     else
     {
-        printf("One or both not found!");
+        printf("One or both not found!\n");
     }
      return 0;
 }
