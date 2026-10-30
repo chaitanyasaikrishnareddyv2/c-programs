@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    // Declare and initialize a message
+    char message[] = "This is an urgent update for all team members.";
+
+    // Complete the code to find the substring "urgent"
+char *result = (message,"urgent");
+  // Check if the substring "urgent" is found
+    if (result != NULL) {
+        // Print the result if found
+        printf("The message is urgent!\n");
+    } else {
+        // Print if not found
+        printf("The message is not urgent.\n");
+    }
+
+    
+    return 0;
+}
