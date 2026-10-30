@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    float price1, price2;
+    scanf("%f %f", &price1, &price2);
+    
+    // Code here 
+    char final_output[100];
+    sprintf(final_output,"Item1: rs.%.2f | Item2: Rs.%.2f",price1,price2);
+    
+    
+    
+    printf("%s\n", final_output);
+    
+    return 0;
+}
