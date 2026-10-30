@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+int main() {
+    char inputstr[101];
+    scanf("%s", inputstr);
+
+    char vowels[] = "aeiou";
+    
+    int i, j;
+int f = 0;
+    // Your code goes here 
+    for(i = 0;i<strlen(inputstr);i++)
+    {
+    for(j = 0;j<strlen(vowels);j++)
+    {
+        if(tolower(inputstr[i]) == vowels[j])
+        {
+            f=1;
+            break;
+        }
+    }
+    if(f>0)
+    {
+        break;
+    }
+    }
+    if(f>0)
+    {
+        printf("%c at position %d",vowels[j],i);
+    }
+    if (f == 0) {
+        printf("No vowel found\n");
+    }
+
+    return 0;
+}
