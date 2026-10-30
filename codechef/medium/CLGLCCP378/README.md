@@ -44,7 +44,7 @@ Both characters found!
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T15:57:31.620Z  
+**Submitted:** 2026-10-30T15:59:47.487Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -54,6 +54,7 @@ int main() {
     char str[100];  // Declare a character array to store the input string
 
     //Your code goes here
+fgets(str,sizeof(str),stdin);
 char *result1 = strchr(str,'@');
 char *result2 = strchr(str,'#');
 if(result1!=NULL&&result2!=NULL)
