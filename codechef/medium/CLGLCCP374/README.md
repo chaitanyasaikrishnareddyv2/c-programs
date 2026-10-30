@@ -42,7 +42,7 @@ Other Department
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T15:44:26.818Z  
+**Submitted:** 2026-10-30T15:44:52.338Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -60,7 +60,7 @@ int main() {
         dept[i] = id[i+1];
     }
     dept[2] = '\0';
-    if(strcmp(dept,"CS"))
+    if(strcmp(dept,"CS") == 0)
     {
         printf("Computer Science Student");
     }
