@@ -42,7 +42,7 @@ Other Department
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T15:41:15.679Z  
+**Submitted:** 2026-10-30T15:43:21.728Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -54,12 +54,12 @@ int main() {
     
     // Your code goes here
     scanf("%s",id);
-    for(int i = 0;i<3;i++)
+    for(int i = 0;i<2;i++)
     {
         dept[i] = id[i+1];
     }
-    dept[3] = '/0';
-    if(dept == 'CS')
+    dept[2] = '\0';
+    if(strcmp(dept,"CS"))
     {
         printf("Computer Science Student");
     }
