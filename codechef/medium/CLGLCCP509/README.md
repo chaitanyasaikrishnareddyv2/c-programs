@@ -22,7 +22,7 @@ Student 3: Name = Charlie, Score = 78
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-21T16:01:09.190Z  
+**Submitted:** 2026-11-21T16:02:08.940Z  
 
 ```c_cpp
 #include <stdio.h>
