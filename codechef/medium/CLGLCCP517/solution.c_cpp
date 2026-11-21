@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+// Define a structure to represent a rectangle
+struct Rectangle {
+    int length;  // Length of the rectangle
+    int width;   // Width of the rectangle
+};
+
+// Function to update rectangle dimensions using pass-by-reference
+void updateRectangle(struct Rectangle *r) {
+    // Increase the length and width of the original rectangle
+    r->length += 5;
+    r->width += 3;
+}
+
+int main() {
+    struct Rectangle myRect;
+
+    // Take user input for rectangle dimensions
+    scanf("%d", &myRect.length);
+    scanf("%d", &myRect.width);
+
+    // Print dimensions before update
+    printf("Before update:\n");
+    printf("Length = %d, Width = %d\n", myRect.length, myRect.width);
+    
+    // Call the function and pass the address of the structure
+    // This allows the function to modify the original structure
+    updateRectangle(&myRect);
+    
+    // Print dimensions after update
+    printf("After update:\n");
+    printf("Length = %d, Width = %d\n", myRect.length, myRect.width);
+
+    return 0;
+}
