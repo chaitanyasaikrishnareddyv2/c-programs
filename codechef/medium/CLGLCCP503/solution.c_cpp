@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+struct Student {
+    char name[50];
+    int age;
+    float gpa;
+};
+
+int main() {
+    struct Student myStudent = {"John Doe",20,3.50}; // Declare and initialize the student structure
+    
+    printf("Student Name: %s\n", myStudent.name);
+    printf("Age: %d\n", myStudent.age);
+    printf("GPA: %.2f\n", myStudent.gpa);
+
+    return 0;
+}
