@@ -4,25 +4,41 @@
 
 ## Problem
 
-_Description not available._
+### Temperature Difference Calculation
+
+In this task, you’ll determine how much warmer City A is compared to City B by subtracting their temperatures.
+
+ **Temperature Values** 
+• City A: 75 degrees
+• City B: 60 degrees
+
+If you subtract 60 from 75, the result will be:
+
+```
+15
+
+```
+
+Try completing the code to get the temperature difference, then run it to confirm your answer!
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-21T17:12:03.087Z  
+**Submitted:** 2026-11-21T17:12:18.536Z  
 
 ```py
-# Assigning scores to two players
-player_a_score = 28  # Score of Player A
-player_b_score = 15  # Score of Player B
+# Declare the temperatures for City A and City B
+city_a_temp = 75
+city_b_temp = 60
 
-# Calculating the score difference between Player A and Player B
-score_difference = player_a_score - player_b_score  # Subtracting Player B's score from Player A's score
+# Calculate the temperature difference
+temperature_difference = city_a_temp - city_b_temp
 
-# Printing the score difference to the console
-print(score_difference)  # Output: 13
+# Print the result
+print("The temperature difference is:", temperature_difference)
+
 ```
 
 ---
