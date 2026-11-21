@@ -4,23 +4,16 @@
 
 ## Problem
 
-### Introduction Message
-
-Consider the following Python code:
-
-```
-print ("I love", "Python", 2025)
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-21T17:02:57.495Z  
+**Submitted:** 2026-11-21T17:02:44.941Z  
 
-```cpp
+```py
 # Printing multiple items in a single statement, including strings and numbers.
 
 # The print() function combines all arguments and separates them with a default space.
