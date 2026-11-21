@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<string.h>
+struct Student {
+    char name[30];
+    int score;
+};
+
+int main() {
+    struct Student s1;
+    scanf("%s",s1.name);
+    scanf("%d",&s1.score);
+if (s1.score>=40)
+{
+    printf("Result: Pass\n");
+}
+else
+{
+    printf("Result: Fail\n");
+}
+printf("Name: %s\n",s1.name);
+printf("Score: %d",s1.score);
+    return 0;
+}
